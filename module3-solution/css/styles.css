@@ -1,0 +1,25 @@
+body{
+	font-size: 16px;
+  	color: #fff;
+  	background-color: gray;
+  	font-family: 'Oxygen', sans-serif;
+}
+
+/*.navbar{
+	background-color: pink;
+	height: 100px;
+}
+*/
+.navbar-brand{
+	float: left;
+}
+
+#hline{
+	
+	line-height: 0.5em;
+}
+
+#navbarTogglerDemo02 a{
+	
+color: black;
+}
