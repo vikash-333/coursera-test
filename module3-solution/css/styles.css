@@ -1,7 +1,11 @@
+*{
+	box-sizing: border-box;
+}
+
 body{
 	font-size: 16px;
   	color: #fff;
-  	background-color: gray;
+  	background-color: pink;
   	font-family: 'Oxygen', sans-serif;
 }
 
@@ -14,12 +18,40 @@ body{
 	float: left;
 }
 
-#hline{
-	
-	line-height: 0.5em;
+#header-nav{
+	padding:0;
 }
 
-#navbarTogglerDemo02 a{
-	
-color: black;
+#navbarTogglerDemo02{
+	background-color: white;
+	text-align: center;
+	color: black;
+}
+
+#menu-item{
+	border-bottom: 1px solid black;
+}
+
+#main-content .jumbotron{
+	margin-top: 0px;
+}
+
+#main-content .jumbotron .container{
+	background-color: gray;
+	height: 1000px;
+}
+
+h2,h3,.text{
+
+	color: black;
+}
+
+h2{
+
+	margin-bottom: 30px;
+ 
+}
+
+.jumbotron{
+	padding: 20px;
 }
