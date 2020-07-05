@@ -36,9 +36,9 @@ body{
 	margin-top: 0px;
 }
 
-#main-content .jumbotron .container{
+#main-content .jumbotron .container .row{
 	background-color: gray;
-	height: 1000px;
+	padding: 20px;
 }
 
 h2,h3,.text{
