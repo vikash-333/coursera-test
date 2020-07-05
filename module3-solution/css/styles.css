@@ -49,15 +49,16 @@ h2,h3{
 
 	margin-bottom: 30px;
 }
+
 h2{
 	font-family: "Lucida Console", Monaco, monospace;
-	font-size: 4vw;
+	font-size: 5vw;
  
 }
 
 h3{
 	font-family: "Comic Sans MS", cursive, sans-serif;
-	font-size:3vw;
+	font-size:4vw;
 }
 
 .jumbotron{
@@ -68,6 +69,6 @@ h3{
 
 .text{
 
-	font-size: 2vw;
-	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 3vw;
+	font-family: "Trebuchet MS", Helvetica, sans-serif
 }
