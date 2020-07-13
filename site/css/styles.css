@@ -1,25 +1,67 @@
-body{
+body {
 	font-size: 16px;
-  	color: #fff;
-  	background-color: gray;
-  	font-family: 'Oxygen', sans-serif;
+	background-color: #fff;
 }
 
-/*.navbar{
-	background-color: pink;
-	height: 100px;
+/*Header*/
+header {
+	border-bottom: 3px solid #fdea07;
 }
-*/
-.navbar-brand{
-	float: left;
-}
-
-#hline{
-	
-	line-height: 0.5em;
+#header-nav {
+	background-color: #000000cc;
+	padding: 0;
 }
 
-#navbarTogglerDemo02 a{
-	
-color: black;
+.container {
+	max-width: 100%;
+	max-height: 100%;;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Papyrus, sans-serif;
+  color: #fdea07;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin: 8px 0px 0px 8px; 
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#navbarNav {
+	background-color: #ccc;
+	max-width: 100%;
+	border: 3px solid #fdea07;
+	border-width: 3px 3px 0px;
+}
+
+#nav-list {
+  color: #951C49;
+}
+
+#nav-list li:hover {
+  background: #E7E7E7;
+}
+
+#main-content {
+	padding: 0;
+	background-color: #fff;
+}
+
+.jumbotron {
+	padding: 10px;
+	border-radius: 0;
+	background-color: #fff;
+}
+
+#page-heading {
+	padding: 10px;
+	margin-bottom: 25px;
+}
+
+#text-section {
+	height: auto;
+	padding: 30px;
+	background-color: darkgrey;
 }
